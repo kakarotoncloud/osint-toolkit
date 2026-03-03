@@ -24,3 +24,32 @@ Ensure you have Python 3.8+ installed on your system.
    ```bash
    git clone [https://github.com/YOUR_USERNAME/osint-toolkit.git](https://github.com/YOUR_USERNAME/osint-toolkit.git)
    cd osint-toolkit
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch the application**
+   ```bash
+   streamlit run app.py
+   ```
+   The application will become available at `http://localhost:8501`.
+
+### Cloud Deployment (Streamlit Community Cloud)
+1. Fork or clone this repository to your GitHub account.
+2. Log into [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Click **New app**, select this repository, and set the main file path to `app.py`.
+4. Click **Deploy**.
+
+## 🏗️ Architecture
+
+* **Frontend/UI:** Streamlit (Customized with minimal high-contrast CSS)
+* **Networking & Requests:** `requests`
+* **DNS/Domain Resolving:** `dnspython`, `python-whois`
+* **Parsing:** `phonenumbers`
+* **Cryptography:** `hashlib` (SHA-1 hashing for k-Anonymity)
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
