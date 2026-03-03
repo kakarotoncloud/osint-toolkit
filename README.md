@@ -3,8 +3,8 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.32.0-FF4B4B.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/osint-toolkit/blob/main/colab_runner.ipynb)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/YOUR_USERNAME/osint-toolkit)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kakarotoncloud/osint-toolkit/blob/main/colab_runner.ipynb)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kakarotoncloud/osint-toolkit)
 
 A modular, highly accessible Open Source Intelligence (OSINT) dashboard. This application aggregates publicly available data and routing information into a clean, minimal, and high-contrast user interface.
 
@@ -23,7 +23,7 @@ A modular, highly accessible Open Source Intelligence (OSINT) dashboard. This ap
 Ensure you have Python 3.8+ installed on your system.
 
 1. **Clone the repository**
-    git clone https://github.com/YOUR_USERNAME/osint-toolkit.git
+    git clone https://github.com/kakarotoncloud/osint-toolkit.git
     cd osint-toolkit
 
 2. **Install dependencies**
